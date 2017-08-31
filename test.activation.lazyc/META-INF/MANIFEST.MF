@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Lazyc
+Bundle-SymbolicName: test.activation.lazyc
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.osgi.framework
+Export-Package: test.activation.lazyc
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: test.activation.lazyc.LazyCActivator
